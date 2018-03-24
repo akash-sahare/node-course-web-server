@@ -52,6 +52,6 @@ app.get('/bad',(request,response) => {
     });
 })
 
-app.listen(3000 ,() => {
+app.listen(port ,() => {
     console.log(`server started - listening at port ${port}`);
 });
